@@ -4,6 +4,7 @@ import getTodos from './controllers/todos/get.js'
 import postTodos from './controllers/todos/add.js';
 import deleteTodos from './controllers/todos/delete.js';
 import updateTodos from './controllers/todos/put.js';
+import patchTodos from './controllers/todos/patch.js';
 
 const router = new Router();
 
@@ -15,5 +16,6 @@ router
   .post('/todos', postTodos)
   .delete('/todos/:id', deleteTodos)
   .put('/todos/:id', updateTodos)
+  .patch('/todos/:id', patchTodos)
 
 export default router;

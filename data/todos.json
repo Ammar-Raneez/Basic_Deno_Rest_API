@@ -7,11 +7,11 @@
   {
     "id": 2,
     "title": "Subscribe to JavaScript Mastery",
-    "completed": true
+    "completed": false
   },
   {
     "id": 5,
     "title": "this is some updated data",
-    "completed": false
+    "completed": true
   }
 ]
