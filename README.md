@@ -8,3 +8,6 @@
 ```
 deno run --allow-net --allow-read --allow-write ./index.js
 ```
+
+**Notes**
+Deno does not use node_modules, rather you import the module directly from deployed url
