@@ -1,3 +1,8 @@
+Basic Rest API built using Deno, a Node replacement that does not use node_modules
+
+## Prerequisites
+* Deno
+
 ### API List
 *GET* - /todos
 *POST* - /todos
